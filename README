@@ -18,8 +18,13 @@ Support
   - 2 layers (0 hidden layer): Input - Output
   - 3 layers (1 hidden layers, most popular): Input - Hidden - Output
   - 4 layers (2 hidden layers): Input - Hidden 1 - Hidden 2 - Output
-  - 5 layers (3 hidden layers): -
-  - 6 layers (4 hidden layers): -
+  - 5 layers (3 hidden layers): Input - 3 Hidden Layers - Output
+  - 6 layers (4 hidden layers): Input - 4 Hidden Layers - Output
+
+Efficiency
+----------
+* Fast convergence with momentum setup.
+* On MNIST database, the testing error is approximately 3% (~97% correct).
 
 Structure
 ---------

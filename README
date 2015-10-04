@@ -8,6 +8,19 @@ Website: http://people.inf.elte.hu/hytruongson/
 Final update: October 4th, 2015
 Copyright 2015 (c) Hy Truong Son. All rights reserved. Only use for academic purposes.
 
+Support
+-------
+* Stochastic learning process
+* Batch learning process
+* Sigmoid activation function
+* Learning through Back-propagation
+* Network architecture with number of layers:
+  - 2 layers (0 hidden layer): Input - Output
+  - 3 layers (1 hidden layers, most popular): Input - Hidden - Output
+  - 4 layers (2 hidden layers): Input - Hidden 1 - Hidden 2 - Output
+  - 5 layers (3 hidden layers): -
+  - 6 layers (4 hidden layers): -
+
 Structure
 ---------
 Multi-Layer Perceptron (MLP, Feed-Forward Artificial Neural Network) library class:

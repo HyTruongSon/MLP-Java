@@ -1,0 +1,32 @@
+Software: Multi-Layer Perceptron Library in Java
+Author: Hy Truong Son
+Major: BSc. Computer Science
+Class: 2013 - 2016
+Institution: Eotvos Lorand University
+Email: sonpascal93@gmail.com
+Website: http://people.inf.elte.hu/hytruongson/
+Final update: October 4th, 2015
+Copyright 2015 (c) Hy Truong Son. All rights reserved. Only use for academic purposes.
+
+Structure
+---------
+Multi-Layer Perceptron (MLP, Feed-Forward Artificial Neural Network) library class:
+$ ~/MyLib/MLP.java
+
+MNIST database folder:
+$ ~/mnist-database
+
+Compilation
+-----------
+Training MLP for MNIST database:
+$ javac training_mnist.java
+$ java training_mnist
+
+Testing MLP for MNIST database:
+$ javac testing_mnist.java
+$ java testing_mnist
+
+Note
+----
+* The MLP library is designed in an object oriented programming way. The API is very straight forward. The users can learn the API from two example codes.
+* Please write an email to the author Hy Truong Son (email: sonpascal93@gmail.com) before referring to this library.

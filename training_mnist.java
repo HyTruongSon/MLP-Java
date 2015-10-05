@@ -44,7 +44,7 @@ public class training_mnist {
 	private static void getImage() throws IOException {
 	    for (int i = 0; i < heightImage; ++i) {
 	        for (int j = 0; j < widthImage; ++j) {
-	            image[i][j] = 255 - imageFile.read();
+	            image[i][j] = imageFile.read();
 	        }
 	    }
 	}
